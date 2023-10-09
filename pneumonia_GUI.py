@@ -51,7 +51,7 @@ def classify_image():
 
             preds = [p_pred1, p_pred2, p_pred3, p_pred4, p_pred5]
 
-            weights = [
+            weights = [  # from ensemble.ipynb, pre-calculated with normal distribution and F1 score
                 0.22307305766017074,
                 0.28895263929699505,
                 0.11785743965075406,
